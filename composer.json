@@ -1,18 +1,18 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "kiukishenkaec/adminpanel",
     "type": "library",
-    "description": ":package_description",
+    "description": ":Административная панель",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "kiukishenkaec",
+        "adminpanel"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/kiukishenkaec/adminpanel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "kiukishenkaec",
+            "email": "kiukishenkaec@gmail.com",
+            "homepage": "jw.org",
             "role": "Developer"
         }
     ],
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "kiukishenkaec\\adminpanel\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "kiukishenkaec\\adminpanel\\": "tests"
         }
     },
     "scripts": {

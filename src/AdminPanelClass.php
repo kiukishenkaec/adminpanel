@@ -1,8 +1,8 @@
 <?php
 
-namespace League\Skeleton;
+namespace Kiukishenkaec\AdminPanel;
 
-class SkeletonClass
+class AdminPanelClass
 {
     /**
      * Create a new Skeleton Instance

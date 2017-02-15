@@ -14,10 +14,5 @@ class AdminPanelServiceProvider extends ServiceProvider
         $this->app->singleton(EngineManager::class, function ($app) {
             return new EngineManager($app);
         });
-        if ($this->app->runningInConsole()) {
-            $this->publishes([
-                __DIR__.'/../config/AdminPanel.php' => config_path('AdminPanel.php'),
-            ]);
-        }
     }
 }

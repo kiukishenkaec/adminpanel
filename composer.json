@@ -1,7 +1,7 @@
 {
     "name": "kiukishenkaec/adminpanel",
     "type": "library",
-    "description": ":Административная панель",
+    "description": "Административная панель",
     "keywords": [
         "kiukishenkaec",
         "adminpanel"
@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "kiukishenkaec\\adminpanel\\": "src"
+            "kiukishenkaec\\adminpanel\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "kiukishenkaec\\adminpanel\\": "tests"
+            "kiukishenkaec\\adminpanel\\": "tests/"
         }
     },
     "scripts": {
